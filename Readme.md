@@ -1,17 +1,49 @@
-I have been tasked by the CEO of an Italian footwear brand to conduct a competitor analysis, focusing primarily on pricing and the types of footwear offered. The goal was to help the brand maintain a competitive position in the market and identify opportunities to better meet customer needs.
+# Competitor Analysis – Italian Footwear Brands
 
-My tasks included collecting detailed pricing information through web scraping for two brands: Melluso and DueLune. 
-I performed web scraping and data cleaning in the Jupyter Notebooks *BW3_Melluso.ipynb* and *BW3_DueLune.ipynb* for Melluso and DueLune, respectively.
+This project was conducted on behalf of the CEO of an Italian footwear company to assess competitor positioning, with a specific focus on **product range and pricing**. The goal was to help the brand stay competitive and uncover opportunities to better align with customer expectations.
 
-Following data collection and cleaning, I conducted the main analysis in *Analysis.ipynb*, examining various types of footwear such as sandals, boots, and high-heeled shoes. The analysis was broken down by company, category, subcategory, and sex.
+---
 
-I provided a comparative evaluation of the brand’s products against its competitor, highlighting the number of models offered by category and subcategory, price differences, and product offerings based on sex.
+## 🕵️ Scope of Work
 
-I performed this analysis exclusively in Python. The following libraries were utilized:
-* bs4 (BeautifulSoup)
-* requests  
-* unidecode
-* pandas
-* seaborn   
-* matplotlib  
-* numpy
+- **Web scraping** pricing and product data from two competitor brands: **Melluso** and **DueLune**
+- **Data cleaning** and formatting using Python
+- **Comparative analysis** by:
+  - Brand
+  - Footwear category and subcategory
+  - Target sex (male/female)
+
+---
+
+## 📊 Analysis Breakdown
+
+- Data collection and cleaning:
+  - `BW3_Melluso.ipynb` – Melluso data
+  - `BW3_DueLune.ipynb` – DueLune data
+- Main analysis:
+  - `Analysis.ipynb` – Comparison of product offerings and pricing across competitors
+
+Key insights include:
+- Number of models offered per category and subcategory
+- Average price differences
+- Distribution of offerings by gender
+
+---
+
+## 🧰 Tools & Libraries
+
+Analysis performed entirely in **Python** using:
+- `bs4` (BeautifulSoup)
+- `requests`
+- `unidecode`
+- `pandas`
+- `seaborn`
+- `matplotlib`
+- `numpy`
+
+---
+
+## 📬 Contact
+
+For questions or feedback, contact:  
+[leonardo.porcacchia@gmail.com](mailto:leonardo.porcacchia@gmail.com)
